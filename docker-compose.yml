@@ -2,10 +2,8 @@ version: "3"
 
 services:
     website:
-        image: nginx
+        image: ./
         ports:
             - 3002:80
         volumes:
-            - /opt/docker/shiruvaaa:/usr/share/nginx/html
-            - /opt/docker/shiruvaaa/default.conf:/etc/nginx/conf.d/default.conf
             - /mnt/sdb/memes:/usr/share/nginx/html/videos
