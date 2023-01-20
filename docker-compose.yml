@@ -2,8 +2,7 @@ version: "3"
 
 services:
     website:
-        image: ./
+        image: ghcr.io/silverfs/shiruvaaa:master
+        container_name: shiruvaaa
         ports:
             - 3002:80
-        volumes:
-            - /mnt/sdb/memes:/usr/share/nginx/html/videos
