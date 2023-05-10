@@ -20,7 +20,7 @@ html, body {
 
 a {
   font: "Monaco", Inconsolata, monospace;
-  text-decoration: none;
+  text-decoration: underline;
   color: #f8f8f8;
 }
 
